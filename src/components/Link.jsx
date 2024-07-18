@@ -4,7 +4,7 @@ export default function Link({item, index}) {
             <div className="min-w-6 h-6 bg-base text-primary grid place-items-center font-semibold rounded-full">{index + 1}</div>
             <p className="text-sm font-semibold">{item?.title || 'Tanpa judul'}</p>
         </div>
-        {item.desc && <div className="w-full px-6 animate-pulse ">
+        {item.desc && <div className="w-full px-6">
             <p className="text-xs opacity-80 text-ellipsis text-nowrap overflow-hidden">{item.desc}</p>
         </div>}
     </a>
