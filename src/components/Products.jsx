@@ -1,6 +1,7 @@
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import myproduct from '../products.json'
 import { useState } from "react";
+import Modal from "./Modal";
 
 export default function Products() {
 
@@ -51,12 +52,13 @@ function Product({product}) {
     </div>
 }
 
-// function ProductImage({imageUrl}) {
-//     return <div className="rounded-xl w-full h-full flex justify-center items-center">
-//         <img className="h-full rounded-xl" src={imageUrl}/>
-//     </div>
-// }
-
 function ProductImage({imageUrl}) {
-    return <div className="bg-base rounded-xl w-full h-full bg-center bg-cover" style={{backgroundImage: `url(${imageUrl})`}}/>
+    const [openModal, setOpenModal] = useState(false)
+    return <div className="bg-base rounded-xl w-full h-full bg-center bg-cover cursor-pointer" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => {
+        setOpenModal(prev => !prev)
+    }}>
+        <Modal isOpen={openModal}>
+            <img src={imageUrl} alt="Gambar contoh pigura" className="rounded-xl"/>
+        </Modal>
+    </div>
 }
