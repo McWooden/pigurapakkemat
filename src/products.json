@@ -10,7 +10,7 @@
             "Pilihan warna yaitu cokelat, hitam, putih, dll"
         ],
         "image": {
-            "folderName": "retro",
+            "pattern": "retro",
             "totalImage": 4
         }
     },
@@ -24,7 +24,7 @@
             "Pilihan warna yaitu cokelat, hitam, putih, dll"
         ],
         "image": {
-            "folderName": "aesthetic",
+            "pattern": "aesthetic",
             "totalImage": 4
         }
     },
@@ -38,7 +38,7 @@
             "Pilihan warna yaitu cokelat, hitam, emas, dll"
         ],
         "image": {
-            "folderName": "simple",
+            "pattern": "simple",
             "totalImage": 3
         }
     },
@@ -52,7 +52,7 @@
             "Pilihan warna yaitu cokelat, hitam, emas, dll"
         ],
         "image": {
-            "folderName": "big",
+            "pattern": "big",
             "totalImage": 4
         }
     }

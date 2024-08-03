@@ -33,7 +33,7 @@ function Product({product}) {
             </div>
             <div className='bg-primary h-52 rounded-b-xl rounded-tr-xl flex gap-2 justify-between items-center p-2'>
                 <div className="bg-secondary h-full flex items-center cursor-pointer px-2 rounded active:scale-95" onClick={minIndex}><FaChevronLeft className="text-base"/></div>
-                <ProductImage imageUrl={`/assets/${product.image.folderName}${index}.webp`}/>
+                <ProductImage imageUrl={`/products/${product.image.pattern}${index}.webp`}/>
                 <div className="bg-secondary h-full flex items-center cursor-pointer px-2 rounded active:scale-95" onClick={addIndex}><FaChevronRight className="text-base"/></div>
             </div>
         </div>
