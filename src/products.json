@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Retro Style",
+        "points": [
+            "Harga hanya Rp50.000 (kaca bening",
+            "Harga Rp65.000 (kaca dop)",
+            "Ukuran A4",
+            "Bisa untuk foto atau lukisan kertas",
+            "Bisa potrait dan landscape",
+            "Pilihan warna yaitu cokelat, hitam, putih, dll"
+        ],
+        "image": {
+            "folderName": "retro",
+            "totalImage": 4
+        }
+    },
+    {
+        "name": "Pigura Aesthetic",
+        "points": [
+            "Harga hanya Rp20.000",
+            "Ukuran 20 x 20 cm",
+            "Bisa untuk foto atau lukisan kertas",
+            "Cocok untuk ditaruh di meja",
+            "Pilihan warna yaitu cokelat, hitam, putih, dll"
+        ],
+        "image": {
+            "folderName": "aesthetic",
+            "totalImage": 4
+        }
+    },
+    {
+        "name": "Simple Style",
+        "points": [
+            "Harga hanya Rp30.000",
+            "Ukuran A4 20 x 30 cm",
+            "Bisa untuk foto atau lukisan kertas",
+            "Bisa potrait dan landscape",
+            "Pilihan warna yaitu cokelat, hitam, emas, dll"
+        ],
+        "image": {
+            "folderName": "simple",
+            "totalImage": 3
+        }
+    },
+    {
+        "name": "Big Size",
+        "points": [
+            "Harga hanya Rp50.000",
+            "Ukuran A4 30 x 40 cm",
+            "Bisa untuk foto atau lukisan kertas",
+            "Bisa potrait dan landscape",
+            "Pilihan warna yaitu cokelat, hitam, emas, dll"
+        ],
+        "image": {
+            "folderName": "big",
+            "totalImage": 4
+        }
+    }
+]

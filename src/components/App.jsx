@@ -2,7 +2,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 import FallbackRender from './FallbackRender'
 import Navbar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
-import LinkTree from './LinkTree'
+import Homepage from './Homepage'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
    <ErrorBoundary fallbackRender={FallbackRender}>
     <Navbar/>
     <Routes>
-      <Route path='/' Component={LinkTree}/>
+      <Route path='/' Component={Homepage}/>
     </Routes>
     </ErrorBoundary>
   </div>
